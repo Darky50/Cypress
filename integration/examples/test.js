@@ -9,7 +9,7 @@ describe('Home Page Validation', function(){
       })
 
     it('LogIn Page', function(){
-        homePage.getBambooWatchChkBox().click();
+        homePage.getBlueBandChkBox().click();
     })
 
 })
