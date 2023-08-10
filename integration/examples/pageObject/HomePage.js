@@ -1,7 +1,7 @@
 class HomePage {
 
-    getBambooWatchChkBox(){
-        return cy.get('tbody > tr:nth-of-type(1) div[role="checkbox"]');
+    getBlueBandChkBox(){
+        return cy.get("tr:nth-of-type(3) div[role='checkbox']");
     }
 }
 
