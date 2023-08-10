@@ -9,7 +9,6 @@ describe('Home Page Validation', function(){
       })
 
     it('LogIn Page', function(){
-        //cy.get("tbody > tr:nth-of-type(1) div[role='checkbox']").click();
         homePage.getBambooWatchChkBox().click();
     })
 
